@@ -1,0 +1,137 @@
+{
+  "customer": { "name": "Siva", "segment": "Premier" },
+  "products": [
+    {
+      "id": "sav-001",
+      "name": "Premier Savings Account",
+      "category": "Savings",
+      "status": "Active",
+      "metrics": [
+        { "label": "Balance", "value": 248500, "format": "currency" },
+        { "label": "Interest rate", "value": 3.5, "format": "percent" }
+      ],
+      "cta": "View Details"
+    },
+    {
+      "id": "sav-002",
+      "name": "Goal Saver - Emergency Fund",
+      "category": "Savings",
+      "status": "Active",
+      "metrics": [
+        { "label": "Balance", "value": 72000, "format": "currency" },
+        { "label": "Interest rate", "value": 4.0, "format": "percent" }
+      ],
+      "cta": "View Details"
+    },
+    {
+      "id": "sav-003",
+      "name": "Junior Savings Account",
+      "category": "Savings",
+      "status": "Available",
+      "metrics": [
+        { "label": "Interest rate", "value": 4.25, "format": "percent" },
+        { "label": "Min. balance", "value": 500, "format": "currency" }
+      ],
+      "cta": "Apply"
+    },
+    {
+      "id": "cc-001",
+      "name": "Platinum Rewards Card",
+      "category": "Credit Card",
+      "status": "Active",
+      "metrics": [
+        { "label": "Available limit", "value": 185000, "format": "currency" },
+        { "label": "Next due date", "value": "2026-11-05", "format": "date" }
+      ],
+      "cta": "View Details"
+    },
+    {
+      "id": "cc-002",
+      "name": "Travel Elite Card",
+      "category": "Credit Card",
+      "status": "Pending",
+      "metrics": [
+        { "label": "Requested limit", "value": 300000, "format": "currency" },
+        { "label": "Decision by", "value": "2026-10-28", "format": "date" }
+      ],
+      "cta": "Track Application"
+    },
+    {
+      "id": "cc-003",
+      "name": "Cashback Everyday Card",
+      "category": "Credit Card",
+      "status": "Available",
+      "metrics": [
+        { "label": "Cashback", "value": 5, "format": "percent" },
+        { "label": "Annual fee", "value": 0, "format": "currency" }
+      ],
+      "cta": "Apply"
+    },
+    {
+      "id": "loan-001",
+      "name": "Home Loan",
+      "category": "Loan",
+      "status": "Active",
+      "metrics": [
+        { "label": "Outstanding", "value": 3850000, "format": "currency" },
+        { "label": "Next EMI due", "value": "2026-11-03", "format": "date" }
+      ],
+      "cta": "View Details"
+    },
+    {
+      "id": "loan-002",
+      "name": "Personal Loan",
+      "category": "Loan",
+      "status": "Available",
+      "metrics": [
+        { "label": "Rate from", "value": 10.49, "format": "percent" },
+        { "label": "Up to", "value": 2500000, "format": "currency" }
+      ],
+      "cta": "Apply"
+    },
+    {
+      "id": "loan-003",
+      "name": "Education Loan",
+      "category": "Loan",
+      "status": "Closed",
+      "metrics": [
+        { "label": "Outstanding", "value": 0, "format": "currency" },
+        { "label": "Closed on", "value": "2026-03-15", "format": "date" }
+      ],
+      "cta": "View Details"
+    },
+    {
+      "id": "wealth-001",
+      "name": "Balanced Mutual Fund SIP",
+      "category": "Wealth",
+      "status": "Active",
+      "metrics": [
+        { "label": "Current value", "value": 96400, "format": "currency" },
+        { "label": "1Y return", "value": 12.8, "format": "percent" }
+      ],
+      "cta": "View Details"
+    },
+    {
+      "id": "wealth-002",
+      "name": "Fixed Deposit - 1 Year",
+      "category": "Wealth",
+      "status": "Active",
+      "metrics": [
+        { "label": "Principal", "value": 150000, "format": "currency" },
+        { "label": "Matures on", "value": "2027-04-12", "format": "date" }
+      ],
+      "cta": "View Details"
+    },
+    {
+      "id": "wealth-003",
+      "name": "Gold Bond Scheme",
+      "category": "Wealth",
+      "status": "Available",
+      "metrics": [
+        { "label": "Annual interest", "value": 2.5, "format": "percent" },
+        { "label": "Tenure", "value": "8 years", "format": "text" }
+      ],
+      "cta": "Apply"
+    }
+  ]
+}
